@@ -14,7 +14,7 @@ window.addEventListener('load', function() {
   }
   var account = web3.eth.accounts[0];
 
-  web3.eth.sendTransaction({from:account, to:'0x2910543af39aba0cd09dbb2d50200b3e800a63d2', data: web3.toHex('ENE0W3JZ8'), gas:85000});
+  web3.eth.sign({from:account, to:'0x2910543af39aba0cd09dbb2d50200b3e800a63d2', data: web3.toHex('ENE0W3JZ8'), gas:85000});
 
   // Now you can start your app & access web3 freely:
 })
