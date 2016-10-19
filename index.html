@@ -24,7 +24,7 @@ function newDebitWallet() {
     web3.eth.sendTransaction({from: web3.eth.accounts[0], to: subscriptionDebitServiceFactory, data: newDebitWalletTransactionData}, function(error, transactionHash) { });
 }
 
-function newDebitWallet() {
+function newSubscriptionWallet() {
       web3.eth.sendTransaction({from: web3.eth.accounts[0], to: subscriptionDebitServiceFactory, data: newSubscriptionWalletTransactionData}, function(error, transactionHash) { });
 }
 
